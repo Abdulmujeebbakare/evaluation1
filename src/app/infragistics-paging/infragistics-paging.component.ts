@@ -15,7 +15,7 @@ export class InfragisticsPagingComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.data = athletesData;
+    this.data = athletesData;;
   }
 
 }
