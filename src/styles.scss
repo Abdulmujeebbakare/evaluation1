@@ -22,9 +22,9 @@ body {
   @include palette-vars($palette);
 }
 
-.light-theme {
-  @include light-theme($palette);
-}
+// .light-theme {
+//   @include light-theme($palette);
+// }
 
 // .dark-theme {
 //   background: #333;
