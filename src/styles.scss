@@ -26,23 +26,23 @@ body {
   @include light-theme($palette);
 }
 
-.dark-theme {
-  background: #333;
-  color: #fff;
-  @include dark-theme(
-    $palette: $green-palette
-  );
+// .dark-theme {
+//   background: #333;
+//   color: #fff;
+//   @include dark-theme(
+//     $palette: $green-palette
+//   );
 
-  .grid-chart-contextmenu-wrapper {
-    @include fluent-dark-theme($fluent-excel-palette);
-  }
-}
+//   .grid-chart-contextmenu-wrapper {
+//     @include fluent-dark-theme($fluent-excel-palette);
+//   }
+// }
 
-.fin-dark-theme {
-  @include dark-theme($green-palette);
-  background: #333;
+// .fin-dark-theme {
+//   @include dark-theme($green-palette);
+//   background: #333;
 
-  ::-moz-placeholder {
-    opacity: 1;
-  }
-}
+//   ::-moz-placeholder {
+//     opacity: 1;
+//   }
+// }
